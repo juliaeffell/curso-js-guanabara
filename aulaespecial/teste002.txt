@@ -1,0 +1,1 @@
+Você deve criar um exemplo de cada tipo de variàvel primitiva do JS

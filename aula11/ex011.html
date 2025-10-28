@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAÍS</title>
+</head>
+<body>
+    <h1>Sistema de imigração</h1>
+    Nacionalidade: <input type="text" id="nat"> 
+    <input type="button" value="Consultar" onclick="Define()">
+    <div id="res">
+
+    </div>
+    <script>
+        function Define() {
+            console.log('Chegou até aqui')
+            let nat = window.document.getElementById('nat')
+            console.log(nat.value)
+            let msg
+            if (nat.value == 'Brasileiro') {
+                msg = 'Você não é imigrante. Boa viagem!'
+            } else {
+                msg = 'Você é imigrante. Aguarde com seu passaporte!'
+            } 
+            let res = window.document.getElementById('res')
+            res.innerHTML = msg
+
+        }
+    </script>
+</body>
+</html>

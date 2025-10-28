@@ -1,0 +1,7 @@
+Guide
+
+1) Criar um arquivo html que importe um arquivo javascript por fora,
+    ou seja, não pode ser com a tag script dentro do body, tem que ser por fora,
+    o arquivo javascript pode ter apenas uma linha, algo como, console.log('imported')
+    ou um alert('imported')
+
